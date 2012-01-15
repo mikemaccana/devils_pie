@@ -10,7 +10,7 @@ Devil's Pie is a short script I made, with which I was able to claim the top pla
 
 Just open the Chrome Developer Tools, open the JS console, and paste the contents of devils_pie.js, then press enter.
 
-You'll see the script filling otu the typing test, without touching the keyboard. 
+You'll see the script filling out the typing test, without touching the keyboard. 
 
 ## License
 
