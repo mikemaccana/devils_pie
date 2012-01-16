@@ -7,7 +7,9 @@ var space_down = $.Event( 'keyup', { which: SPACE_KEYCODE } );
 
 // Get the text of all the upcoming words
 var words = [];
-$('div#words > div#row1').children().each(function(index, element) { words.push($(element).text() );})
+$('div#words > div#row1').children().each(function(index, element) { 
+	words.push( $(element).text() );
+});
 
 // Iterate through the upcoming words, enter them into the box, and send the spacebar up event
 // This will complete the typing test at 1 word per 100ms.
