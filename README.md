@@ -8,7 +8,7 @@ Devil's Pie is a short script I made, with which I was able to claim the top pla
 
 ## Usage
 
-Just open the Chrome Developer Tools, open the JS console, and paste the contents of devils_pie.js, then press enter.
+Load the extension and visit the Speed Test.
 
 You'll see the script filling out the typing test, without touching the keyboard. 
 
