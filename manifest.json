@@ -5,7 +5,7 @@
 	"content_scripts": [
 		{
 			"matches": [
-			    "http://speedtest.10fastfingers.com/*"
+			    "http://*.10fastfingers.com/*"
 			],
 			"all_frames": true,
 			"js": ["jquery.js", "content.js"],
