@@ -1,15 +1,15 @@
 {
-	"name": "Devil's Pie",
-	"version": "2012.3.29",
-	"description": "Solve the 10 Fast Fingers Speedtest.",
-	"content_scripts": [
-		{
-			"matches": [
-			    "http://*.10fastfingers.com/*"
-			],
-			"all_frames": true,
-			"js": ["jquery.js", "content.js"],
-			"run_at": "document_idle"
-		}
-	]
+  "name": "Devil's Pie",
+  "version": "2012.3.29",
+  "description": "Solve the 10 Fast Fingers Speedtest.",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.10fastfingers.com/*"
+      ],
+      "all_frames": true,
+      "js": ["jquery.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
 }
