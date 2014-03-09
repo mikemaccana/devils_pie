@@ -1,7 +1,8 @@
 {
   "name": "Devil's Pie",
-  "version": "2012.3.29",
+  "version": "2014.3.9",
   "description": "Solve the 10 Fast Fingers Speedtest.",
+  "manifest_version": 2,
   "content_scripts": [
     {
       "matches": [
@@ -11,5 +12,6 @@
       "js": ["jquery.js", "content.js"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "web_accessible_resources": ["injectme.js"]
 }

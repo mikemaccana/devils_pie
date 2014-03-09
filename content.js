@@ -3,8 +3,10 @@
 // Add a script tag pointing to a file from our extension into the page's DOM
 // this script will execute in the page's own JS world
 var injectJSFile = function(file) {
-  var url = chrome.extension.getURL(file);    
-  $('<script type="text/javascript" src="'+url+'"/>').appendTo($('head')); 
+  var url = chrome.extension.getURL(file);
+  var script = document.createElement('script');
+  script.src = url;
+  document.querySelector('head').appendChild(script);
 }
 
 $(function(){
@@ -12,5 +14,5 @@ $(function(){
   // It takes around 2 secs for the pages own JS to load the words.
   setTimeout( function() {
     injectJSFile("injectme.js");
-  }, 2000)    
+  }, 2000)
 })
